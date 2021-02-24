@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soal 3 Array Object Pertama</title>
+</head>
+<body>
+
+    <script>
+        // membuat list array object
+        let listBuah = [
+            { 
+                "nama": "Strawberry",
+                "warna": "Merah",
+                "ada_bijinya": "Tidak",
+                "harga": 9000 
+            },
+            {
+                "nama": "Jeruk",
+                "warna": "Oranye",
+                "ada_bijinya": "Ada",
+                "harga": 8000
+            },
+            {
+                "nama": "Semangka",
+                "warna": "Hijau & Merah",
+                "ada_bijinya": "Ada",
+                "harga": 10000
+            },
+            {
+                "nama": "Pisang",
+                "warna": "Kuning",
+                "ada_bijinya": "Tidak",
+                "harga": 5000
+            }
+        ]
+
+        // Tampilkan data Pertama dari object]
+        document.write('<h2>Data Pertama Object Buah</h2>'); 
+        document.write('<p>Nama : ' + listBuah[0].nama + '</p>'); 
+        document.write('<p>Warna : ' + listBuah[0].warna + '</p>'); 
+        document.write('<p>Memiliki Biji : ' + listBuah[0].ada_bijinya + '</p>'); 
+        document.write('<p>Harga : ' + listBuah[0].harga + '</p>'); 
+
+    </script>
+</body>
+</html>
